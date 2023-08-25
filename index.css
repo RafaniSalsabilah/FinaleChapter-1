@@ -1,0 +1,767 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar button{
+    background-color: #0D28A6;
+    width: 5rem;
+    height: 1.5rem;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+#navbarNav{
+    position: absolute;
+    right: 6rem;
+    top: 2rem;
+}
+
+.navbar .nav-itemm .nav-link{
+    margin-top: 8px;
+    padding: 0;
+    color: #fff;
+}
+
+.navbar .nav-itm .nav-link{
+    display: none;
+}
+
+#icons{
+    display: none;
+}
+
+.navbar .nav-itemm .nav-link a{
+    background-color: #5CB85F;
+    border-radius: .1rem;
+    padding: 5px 10px;
+
+}
+
+.blockHeader{
+    display: flex;
+    background-color: #F1F3FF;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.blockHeader .sectionKiri{
+    width: 50%;
+    padding-top: 2.5rem;
+}
+
+.blockHeader .sectionKiri h1{
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.blockHeader .sectionKiri .teks{
+    margin-right: 6.5rem;
+    margin-bottom: .6rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.blockHeader .sectionKiri .tulisan{
+    background-color: #5CB85F;
+    color: #fff;
+    border-radius: .1rem;
+    height: 1.8rem;
+    width: 10rem;
+    text-align: center;
+    padding-top: .1rem;
+}
+
+.blockHeader .sectionKanan{
+    width: 50%;
+    height: 24rem;
+    position: relative;
+}
+
+.blockHeader .sectionKanan .imgCar{
+    background: url(../img/img_car.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22rem;
+    width: 38rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.bestCar{
+    display: flex;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bestCar .sectionKiri{
+    width: 50%;
+    height: 23rem;
+    position: relative;
+}
+
+.bestCar .sectionKiri .imgCircle{
+    background: url(../img/img_circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 23rem;
+    width: 24.5rem;
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+}
+
+.bestCar .sectionKanan{
+    width: 50%;
+}
+
+.bestCar .sectionKanan h2{
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+.bestCar .sectionKanan .teks{
+    text-align: justify;
+    font-size: 1rem;
+    padding-right: 6rem;
+    margin-bottom: .5rem;
+}
+
+.bestCar .sectionKanan .poin .poin1{
+    display: flex;
+    align-items: center;
+    margin-top: .1rem;
+}
+
+.bestCar .sectionKanan .poin .poin1 .image{
+    background: url(../img/Group\ 53.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .7rem; 
+}
+
+.bestCar .sectionKanan .poin .poin1 p{
+    font-size: 1rem;
+    margin: .5rem 0;
+}
+
+.whyUs{
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+.whyUs .atas h2{
+    margin-bottom: .8rem;
+    margin-top: 0;
+}
+
+.whyUs .atas .teks{
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testi{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+}
+
+.testi .atas{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testi .card-body{
+    display: flex;
+    padding-top: 2rem;
+    margin: 0 15rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    background-color: #F1F3FF;
+    border-radius: .5rem;
+}
+
+.testi .card-body .sectionKiri{
+    width: 30%;
+    height: 7rem;
+    position: relative;
+}
+
+.testi .card-body .sectionKiri img{
+    display: none;
+}
+
+.testi .card-body .sectionKiri .imgCircle{
+    background: url(../img/img_photo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 0;
+}
+
+.testi .card-body .sectionKiri .imgCirclee{
+    background: url(../img/img_photoo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 0;
+}
+
+.testi .card-body .sectionKanan{
+    width: 70%;
+}
+
+.testi .card-body .sectionKanan .stars{
+    color: gold;
+}
+
+.testi .card-body .sectionKanan .teks{
+    text-align: justify;
+    font-size: 1rem;
+    padding-top: .5rem;
+    padding-right: 2rem;
+    margin-bottom: .5rem;
+}
+
+.tombol{
+    display: flex;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tombol .sectionKiri{
+    width: 50%;
+    position: relative;
+    padding-left: 33rem;
+    padding-right: 1rem;
+}
+
+.tombol .sectionKiri .icons{
+    border-radius: 100%;
+    padding-left: .4rem;
+}
+
+.tombol .sectionKiri .icons:hover{
+    background-color: #5CB85F;
+}
+
+.tombol .sectionKiri .imgT{
+    background: url(../img/Left\ button.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    display: none;
+}
+
+.tombol .sectionKanan{
+    width: 50%;
+    position: relative;
+    padding-right: 33rem;
+    padding-left: 1rem;
+}
+
+.tombol .sectionKanan .imgL{
+    background: url(../img/Right\ button.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    display: none;
+}
+
+.tombol .sectionKanan .icons{
+    border-radius: 100%;
+    padding-left: .4rem;
+}
+
+.tombol .sectionKanan .icons:hover{
+    background-color: #5CB85F;
+}
+
+.sewa{
+    padding: 1rem 4rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-right: 4rem;
+    border-radius: .5rem;
+    background-color: #0D28A6;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.sewa h1{
+    margin-top: 2rem;
+}
+
+.sewa .teks{
+    margin-top: 1.5rem;
+    padding: 0 15rem;
+}
+
+.sewa .tulisan{
+    background-color: #5CB85F;
+    color: #fff;
+    border-radius: .1rem;
+    height: 1.8rem;
+    width: 10rem;
+    text-align: center;
+    padding-top: .1rem;
+    margin-top: 1.5rem;
+    margin-left: 26.5rem;
+    margin-bottom: 2rem;
+}
+
+.faq{
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
+
+.faq .sectionKiri{
+    width: 50%;
+}
+
+.faq .sectionKanan{
+    width: 50%;
+    margin-right: 4rem;
+}
+
+.footer{
+    padding: 5rem 4rem;
+    display: flex;
+}
+
+.footer .kiri{
+    width: 25%;
+}
+
+.footer .tengah1{
+    width: 25%;
+    padding-left: 4rem;
+}
+
+.footer .tengah2{
+    width: 25%;
+    height: 10rem;
+    position: relative;
+}
+
+.footer .kanan{
+    width: 25%;
+}
+
+.footer .kiri .alamat{
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.footer .kiri .alamatEmail{
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.footer .kiri .hp{
+    font-size: 1rem;
+}
+
+.footer .tengah1 .services1{
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.footer .tengah1 .services2{
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.footer .tengah1 .services3{
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.footer .tengah1 .services4{
+    font-size: 1rem;
+}
+
+.footer .tengah2 .connect{
+    font-size: 1rem;
+}
+
+.footer .tengah2 .logo{
+    background: url(../img/list\ item.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .kanan .copyright{
+    font-size: 1rem;
+}
+
+.footer .kanan button{
+    background-color: #0D28A6;
+    width: 5rem;
+    margin-top: .5rem;
+    height: 1.5rem;
+    border: none;
+}
+
+@media (max-width: 656px) { 
+  
+    #navbarNav{
+        position: absolute;
+        top: 0;
+        left: 14rem;
+        right: 0;
+        background-color: #fff;
+        width: 10rem;
+        height: 100vh;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .navbar .nav-itm .nav-link{
+        display: inline;
+    }
+
+    .navbar button{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #icons{
+        display: inline;
+        margin-left: 3.5rem;
+    }
+
+    .blockHeader{
+        display: flex;
+        flex-direction: column;
+        background-color: #F1F3FF;
+        padding-top: .5rem;
+        padding-left: 1rem;
+    }
+    
+    .blockHeader .sectionKiri{
+        width: 100%;
+        padding-top: .5rem;
+    }
+
+    .blockHeader .sectionKiri .teks{
+        margin-right: 2rem;
+    }
+    
+    .blockHeader .sectionKanan{
+        width: 100%;
+        position: relative;
+        height: 15rem;
+    }
+    
+    .blockHeader .sectionKanan .imgCar{
+        background: url(../img/img_car.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 13rem;
+        width: 22rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .bestCar{
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bestCar .sectionKiri{
+        width: 100%;
+        height: 20rem;
+        position: relative;
+        margin-bottom: .5rem;
+    }
+    
+    .bestCar .sectionKiri .imgCircle{
+        background: url(../img/img_circle.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .bestCar .sectionKanan{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    
+    .bestCar .sectionKanan .teks{
+        padding-right: .2rem;
+    }
+
+    .whyUs{
+        padding: 0 1rem;
+    }
+
+    .whyUs .atas h2{
+        text-align: center;
+    }
+    
+    .whyUs .atas .teks{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .testi{
+        margin-top: 3rem;
+        padding: 0;
+    }
+    
+    .testi .atas{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .testi .card-body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+    
+    .testi .card-body .sectionKiri{
+        width: 100%;
+        padding: .5rem;
+    }
+    
+    .testi .card-body .sectionKiri img{
+        display: inline-block;
+        padding-left: 6.5rem;
+    }
+
+    .testi .card-body .sectionKiri .imgCircle{
+        display: none;
+    }
+    
+    .testi .card-body .sectionKiri .imgCirclee{
+        display: none;
+    }
+    
+    .testi .card-body .sectionKanan{
+        width: 100%;
+    }
+    
+    .testi .card-body .sectionKanan .stars{
+        padding-left: 6rem;
+        padding-bottom: .5rem;
+    }
+    
+    .testi .card-body .sectionKanan .teks{
+        padding: 0;
+    }
+    
+    .tombol .sectionKiri{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .tombol .sectionKiri .icons{
+        border-radius: 100%;
+        position: absolute;
+        right: 1rem;
+        left: 8.5rem;
+        padding-right: .65rem;
+    }
+    
+    .tombol .sectionKiri .icons:hover{
+        background-color: #5CB85F;
+    }
+    
+    .tombol .sectionKanan{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .tombol .sectionKanan .icons{
+        border-radius: 100%;
+        position: absolute;
+        left: 1rem;
+        right: 8.5rem;
+        padding-left: .65rem;
+    }
+    
+    .tombol .sectionKanan .icons:hover{
+        background-color: #5CB85F;
+    }
+
+    .sewa{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .sewa h1{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .sewa .teks{
+        padding-top: .5rem;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+
+    .sewa .tulisan{
+        background-color: #5CB85F;
+        color: #fff;
+        border-radius: .1rem;
+        height: 1.8rem;
+        width: 10rem;
+        text-align: center;
+        padding-top: .1rem;
+        margin: 0;
+        margin-left: 5.3rem;
+    }
+    
+    .faq{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+    
+    .faq .sectionKiri{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .faq .sectionKanan{
+        width: 100%;
+        margin-right: 4rem;
+    }
+
+    .footer{
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer .kiri{
+        width: 100%;
+        padding-bottom: .5rem;
+    }
+
+    .footer .kiri .alamat{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .footer .kiri .alamatEmail{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .footer .kiri .hp{
+        font-size: 1rem;
+    }
+    
+    .footer .tengah1{
+        width: 100%;
+        padding: 0;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    
+    .footer .tengah1 .services1{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .footer .tengah1 .services2{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .footer .tengah1 .services3{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .footer .tengah1 .services4{
+        font-size: 1rem;
+    }
+    
+    .footer .tengah2{
+        width: 100%;
+        padding-top: .5rem;
+        height: 5rem;
+        position: relative;
+    }
+
+    .footer .tengah2 .connect{
+        font-size: 1rem;
+    }
+    
+    .footer .tengah2 .logo{
+        background: url(../img/list\ item.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10rem;
+        height: 2rem;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer .kanan{
+        width: 100%;
+    }
+    
+    .footer .kanan .copyright{
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+    
+    .footer .kanan button{
+        background-color: #0D28A6;
+        width: 5rem;
+        margin-top: .5rem;
+        height: 1.5rem;
+        border: none;
+    }
+}
