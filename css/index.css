@@ -254,6 +254,7 @@ body{
 .tombol .sectionKiri .icons{
     border-radius: 100%;
     padding-left: .4rem;
+    border: 1px solid #b8b8b8;
 }
 
 .tombol .sectionKiri .icons:hover{
@@ -292,6 +293,7 @@ body{
 .tombol .sectionKanan .icons{
     border-radius: 100%;
     padding-left: .4rem;
+    border: 1px solid #b8b8b8;
 }
 
 .tombol .sectionKanan .icons:hover{
@@ -456,6 +458,7 @@ body{
     #icons{
         display: inline;
         margin-left: 3.5rem;
+        color: black;
     }
 
     .blockHeader{
@@ -600,7 +603,7 @@ body{
         position: absolute;
         right: 1rem;
         left: 8.5rem;
-        padding-right: .65rem;
+        padding-right: .5rem;
     }
     
     .tombol .sectionKiri .icons:hover{
@@ -617,7 +620,7 @@ body{
         position: absolute;
         left: 1rem;
         right: 8.5rem;
-        padding-left: .65rem;
+        padding-left: .55rem;
     }
     
     .tombol .sectionKanan .icons:hover{
