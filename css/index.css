@@ -10,13 +10,13 @@ body{
     height: 1.5rem;
     border: none;
     margin-left: 3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #navbarNav{
     position: absolute;
     right: 6rem;
-    top: 2rem;
+    top: 1rem;
 }
 
 .navbar .nav-itemm .nav-link{
